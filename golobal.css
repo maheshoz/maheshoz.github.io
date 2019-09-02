@@ -16,7 +16,7 @@ body {
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   background: #f7f5f5;
-  font-display: swap;
+  /* font-display: swap; */
 }
 
 a {
@@ -59,6 +59,10 @@ a {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.scale-in{
+  animation: scale-in .7s linear;
 }
 
 @keyframes scale-in {
