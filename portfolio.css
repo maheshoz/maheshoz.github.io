@@ -1,0 +1,56 @@
+.portfolio_page{
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 160px;
+}
+.portfolio_page h1{
+  color: rgb(117, 111, 111);
+  margin-bottom: 14px;
+}
+.portfolio_page p{
+  color: rgb(126, 123, 123);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.work{
+  margin: 50px 10px;
+}
+.work_in{
+  margin-top: 100px;
+}
+.work_in h3{
+  color: gray;
+  margin: 10px;
+  position: relative;
+}
+.work_in h3::before{
+  content: '*';
+    position: absolute;
+    color: rgb(117, 95, 242);
+    font-size: 35px;
+    top: -3px;
+    left: -24px;
+}
+
+.shot_link{
+  color: blue;
+  text-decoration: underline;
+}
+
+.top{
+  position: fixed;
+  left: 0;
+  background: rgb(185, 185, 185);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  bottom: 15vh;
+  font-size: 30px;
+  text-align: center;
+}
+.top span{
+  font-size: 10px;
+}
