@@ -3,13 +3,11 @@
   margin: 30px 20px 10px;
   overflow-x: hidden;
 }
-
 .skills_page h1,
 h2 {
   color: #808080;
 }
-
-h2 {
+.skills_page h2 {
   margin-top: 46px;
 }
 .web_mobile {
@@ -19,9 +17,7 @@ h2 {
   margin-top: 18px;
   flex-wrap: wrap;
 }
-
 .card {
-  cursor: pointer;
   background: #eee;
   border-radius: 6px;
   display: flex;
@@ -36,23 +32,20 @@ h2 {
 }
 @media (max-width: 460px) {
   .card {
-    padding: 30px;
+      padding: 30px;
   }
 }
 @media (min-width: 641px) {
   .skills_page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding:50px 20px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px 20px;
   }
   .tech {
-    justify-content: flex-start;
+      justify-content: flex-start;
   }
 }
 
-.skill-bars {
-  margin-bottom: 20px;
-}
 .web {
   background: rgba(243, 182, 89, 0.699);
   color: rgb(200, 73, 26);
@@ -61,18 +54,10 @@ h2 {
   background: rgba(0, 255, 0, 0.2);
   background: lightgreen;
 }
-.main {
-  width: 100%;
-  background: #969696;
-  padding: 0;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
 
 .tech {
   margin-top: 20px;
-  margin-bottom: 150px;
- 
+  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -82,4 +67,7 @@ h2 {
   padding: 6px 12px;
   background: #eee;
   margin: 10px;
+}
+.mb-2rem{
+  margin-bottom: 11rem;
 }

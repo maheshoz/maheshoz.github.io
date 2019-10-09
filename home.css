@@ -32,7 +32,7 @@ color: #001eff;
 }
 
 .contact{
-   background: orange;
+   background-color: orange;
    cursor: pointer;
   color: #fff;
   display: inline-block;
@@ -43,7 +43,34 @@ color: #001eff;
 text-transform: uppercase;
 font-size: 15px;
 font-weight: bold;
+transition: box-shadow .2s;
 }
+.contact:hover{
+      box-shadow: 1px 7px 0px 0px #ffa5008a;
+
+}
+
+.react{
+  margin-top: 3rem;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.opacity_8{
+  opacity: .8;
+}
+.react .logo_span{
+  color: #00afde;
+}
+a.react_portfolio{
+  border-bottom: 1px solid gray;
+  transition: color .4s,border-bottom .1s;
+}
+a.react_portfolio:hover{
+  color: #031283;
+  border-bottom: 5px solid #031283;
+
+}
+
 
 @media (min-width:900px){
   .name{

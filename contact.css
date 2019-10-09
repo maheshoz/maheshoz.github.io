@@ -1,5 +1,5 @@
 .contact_page{
-  max-width: 800px;
+  max-width: 600px;
  
   padding:50px;
   margin: 0 auto;
@@ -40,4 +40,26 @@
       margin-top: 20px;
    }
 
+}
+@media (max-width: 537px){
+ 
+  .contact_page{
+     margin: 0.6rem;
+  }
+}
+
+.linked-in{
+  background-color: rgb(29, 128, 240);
+  display: inline-block;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gmail{
+  background-color: rgba(236, 54, 54, 0.78);
+  display: inline-block;
+  padding: 12px 12px;
+  color: #fff;
+  border-radius: 5px;
 }
