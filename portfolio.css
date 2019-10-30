@@ -50,6 +50,7 @@
     bottom: 15vh;
     font-size: 30px;
     text-align: center;
+     cursor: pointer;
     box-shadow: 0px 6px 8px -4px #9a9898;
 }
 .top span{
